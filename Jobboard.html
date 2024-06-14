@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Board</title>
+  <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color:pink;
+        }
+        .header {
+            background-color:blue;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .header nav .menu {
+            display: flex;
+        }
+        .header nav .menu a {
+            margin-right: 20px;
+        }
+        .main {
+            text-align: center;
+            padding: 50px;
+            background-color: #00aaff;
+            color: white;
+        }
+        .main h1 {
+            margin: 0;
+        }
+        .main p {
+            font-size: 2.0em;
+        }
+        .main .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .search-bar {
+            margin: 20px auto;
+            max-width: 800px;
+            display: flex;
+            justify-content: left;
+        }
+        .search-bar input, .search-bar select, .search-bar button {
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .search-bar button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+  <nav>
+    <div class="logo">
+      <h1>DHUNDO APNA JOB</h1>
+      <p>A perfect destination for all your job related problems!!!!</p>
+    </div>
+    <div class="menu">
+      <a href="#">Home</a>
+      <a href="#">Browse Job</a>
+      <a href="#"> Job Pages</a>
+      <a href="#">Links</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="auth">
+      <a href="#">Log in</a>
+      <a href="#" class="cta-button">Post A Job</a>
+    </div>
+  </nav>
+</div>
+
+<div class="main">
+  <h1>4536+ Jobs listed (According to Recent Searches)</h1>
+  <p>Find Your Dream Job At This Location</p>
+  <p>A one time solutions for all your money related issues.We also provide loans with less interest per annum.</p>
+  <a href="#" class="cta-button">Upload Your Resume</a>
+</div>
+
+<div class="search-bar">
+  <input type="text" placeholder="Search keyword">
+  <input type="text" placeholder="Location">
+  <select>
+    <option value="">Category</option>
+    <option>product manager</option>
+    <option>web developer</option>
+    <option>app developer</option>
+    <option>accountant</option>
+
+  </select>
+  <button>Find Job</button>
+</div>
+</body>
+</html>
